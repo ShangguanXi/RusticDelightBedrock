@@ -1,0 +1,122 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "bag_bottom": {
+      "textures": "textures/blocks/bag_bottom"
+    },
+    "bag_side": {
+      "textures": "textures/blocks/bag_side"
+    },
+    "bag_side_tied": {
+      "textures": "textures/blocks/bag_side_tied"
+    },
+    "bell_pepper_green_crate_side": {
+      "textures": "textures/blocks/bell_pepper_green_crate_side"
+    },
+    "bell_pepper_green_crate_top": {
+      "textures": "textures/blocks/bell_pepper_green_crate_top"
+    },
+    "bell_pepper_red_crate_side": {
+      "textures": "textures/blocks/bell_pepper_red_crate_side"
+    },
+    "bell_pepper_red_crate_top": {
+      "textures": "textures/blocks/bell_pepper_red_crate_top"
+    },
+    "bell_pepper_seeds_bag_top": {
+      "textures": "textures/blocks/bell_pepper_seeds_bag_top"
+    },
+    "bell_pepper_yellow_crate_side": {
+      "textures": "textures/blocks/bell_pepper_yellow_crate_side"
+    },
+    "bell_pepper_yellow_crate_top": {
+      "textures": "textures/blocks/bell_pepper_yellow_crate_top"
+    },
+    "bell_peppers_stage0": {
+      "textures": "textures/blocks/bell_peppers_stage0"
+    },
+    "bell_peppers_stage1": {
+      "textures": "textures/blocks/bell_peppers_stage1"
+    },
+    "bell_peppers_stage2": {
+      "textures": "textures/blocks/bell_peppers_stage2"
+    },
+    "bell_peppers_stage3": {
+      "textures": "textures/blocks/bell_peppers_stage3"
+    },
+    "bell_peppers_stage4": {
+      "textures": "textures/blocks/bell_peppers_stage4"
+    },
+    "bell_peppers_stage5": {
+      "textures": "textures/blocks/bell_peppers_stage5"
+    },
+    "bell_peppers_stage6": {
+      "textures": "textures/blocks/bell_peppers_stage6"
+    },
+    "bell_peppers_stage7": {
+      "textures": "textures/blocks/bell_peppers_stage7"
+    },
+    "chocolate_pancakes_pancake": {
+      "textures": "textures/blocks/chocolate_pancakes_pancake"
+    },
+    "chocolate_pancakes_topping": {
+      "textures": "textures/blocks/chocolate_pancakes_topping"
+    },
+    "chocolate_pancakes_tray_top": {
+      "textures": "textures/blocks/chocolate_pancakes_tray_top"
+    },
+    "cotton_boll_crate_side": {
+      "textures": "textures/blocks/cotton_boll_crate_side"
+    },
+    "cotton_boll_crate_top": {
+      "textures": "textures/blocks/cotton_boll_crate_top"
+    },
+    "cotton_seeds_bag_top": {
+      "textures": "textures/blocks/cotton_seeds_bag_top"
+    },
+    "cotton_stage0": {
+      "textures": "textures/blocks/cotton_stage0"
+    },
+    "cotton_stage1": {
+      "textures": "textures/blocks/cotton_stage1"
+    },
+    "cotton_stage2": {
+      "textures": "textures/blocks/cotton_stage2"
+    },
+    "cotton_stage3": {
+      "textures": "textures/blocks/cotton_stage3"
+    },
+    "crate_bottom": {
+      "textures": "textures/blocks/crate_bottom"
+    },
+    "honey_pancakes_pancake": {
+      "textures": "textures/blocks/honey_pancakes_pancake"
+    },
+    "honey_pancakes_tray_top": {
+      "textures": "textures/blocks/honey_pancakes_tray_top"
+    },
+    "tray_bottom": {
+      "textures": "textures/blocks/tray_bottom"
+    },
+    "tray_top": {
+      "textures": "textures/blocks/tray_top"
+    },
+    "vegetable_pancakes_pancake": {
+      "textures": "textures/blocks/vegetable_pancakes_pancake"
+    },
+    "vegetable_pancakes_topping": {
+      "textures": "textures/blocks/vegetable_pancakes_topping"
+    },
+    "vegetable_pancakes_tray_top": {
+      "textures": "textures/blocks/vegetable_pancakes_tray_top"
+    },
+    "wild_bell_peppers": {
+      "textures": "textures/blocks/wild_bell_peppers"
+    },
+    "wild_cotton": {
+      "textures": "textures/blocks/wild_cotton"
+    }
+  },
+  "texture_name": "atlas.terrain"
+}

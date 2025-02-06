@@ -1,0 +1,13 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "rusticdelight:wild_bell_peppers": {
+        "sound": "grass"
+    },
+    "rusticdelight:wild_cotton": {
+        "sound": "grass"
+    }
+}

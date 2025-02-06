@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "farmersdelight:canvas"
+        },
+        "key": {
+            "#": {
+                "item": "rusticdelight:cotton_boll"
+            }
+        },
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "result": {
+            "item": "farmersdelight:canvas"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

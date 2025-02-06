@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 0.3,
+        "can_always_eat": false
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:cabbage_roll_ingredients",
+          "farmersdelight:is_fertilizer.10",
+          "farmersdelight:can_cook"
+        ]
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rusticdelight:potato_slices"
+        }
+      }
+    },
+    "description": {
+      "identifier": "rusticdelight:potato_slices",
+      "menu_category": {
+        "category": "nature",
+        "group": "farmersdelight:itemGroup.name.rawFood"
+      }
+    }
+  }
+}

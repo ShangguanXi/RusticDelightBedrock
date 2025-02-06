@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:cotton_seeds"
+        },
+        "ingredients": [
+            {
+                "item": "rusticdelight:cotton_seeds_bag"
+            }
+        ],
+        "result": {
+            "count": 9,
+            "item": "rusticdelight:cotton_seeds"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

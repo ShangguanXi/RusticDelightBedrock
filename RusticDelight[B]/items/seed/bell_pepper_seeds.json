@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "rusticdelight:bell_peppers",
+        "use_on": [
+          "farmland",
+          "farmersdelight:rich_soil_farmland"
+        ]
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rusticdelight:bell_pepper_seeds"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:seed-rusticdelight:bell_peppers"
+        ]
+      }
+    },
+    "description": {
+      "identifier": "rusticdelight:bell_pepper_seeds",
+      "menu_category": {
+        "category": "nature",
+        "group": "farmersdelight:itemGroup.name.seed"
+      }
+    }
+  }
+}

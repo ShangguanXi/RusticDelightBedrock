@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "rusticdelight:campfire_cooked_calamari"
+        },
+        "input": "rusticdelight:calamari",
+        "output": "rusticdelight:cooked_calamari",
+        "tags": [
+            "campfire",
+            "soul_campfire"
+        ]
+    }
+}

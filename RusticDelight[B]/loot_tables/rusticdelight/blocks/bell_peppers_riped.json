@@ -1,0 +1,79 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:bell_pepper_seeds",
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:bell_pepper_red",
+                    "type": "item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:bell_pepper_green",
+                    "type": "item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:bell_pepper_yellow",
+                    "type": "item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

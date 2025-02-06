@@ -1,0 +1,108 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "rusticdelight:baked_potato_slices": {
+      "textures": "textures/rusticdelight_items/baked_potato_slices"
+    },
+    "rusticdelight:batter": {
+      "textures": "textures/rusticdelight_items/batter"
+    },
+    "rusticdelight:bell_pepper_green": {
+      "textures": "textures/rusticdelight_items/bell_pepper_green"
+    },
+    "rusticdelight:bell_pepper_pasta": {
+      "textures": "textures/rusticdelight_items/bell_pepper_pasta"
+    },
+    "rusticdelight:bell_pepper_red": {
+      "textures": "textures/rusticdelight_items/bell_pepper_red"
+    },
+    "rusticdelight:bell_pepper_seeds": {
+      "textures": "textures/rusticdelight_items/bell_pepper_seeds"
+    },
+    "rusticdelight:bell_pepper_soup": {
+      "textures": "textures/rusticdelight_items/bell_pepper_soup"
+    },
+    "rusticdelight:bell_pepper_yellow": {
+      "textures": "textures/rusticdelight_items/bell_pepper_yellow"
+    },
+    "rusticdelight:calamari": {
+      "textures": "textures/rusticdelight_items/calamari"
+    },
+    "rusticdelight:calamari_roll": {
+      "textures": "textures/rusticdelight_items/calamari_roll"
+    },
+    "rusticdelight:calamari_slice": {
+      "textures": "textures/rusticdelight_items/calamari_slice"
+    },
+    "rusticdelight:chocolate_pancakes": {
+      "textures": "textures/rusticdelight_items/chocolate_pancakes"
+    },
+    "rusticdelight:cooked_calamari": {
+      "textures": "textures/rusticdelight_items/cooked_calamari"
+    },
+    "rusticdelight:cooked_calamari_slice": {
+      "textures": "textures/rusticdelight_items/cooked_calamari_slice"
+    },
+    "rusticdelight:cooking_oil": {
+      "textures": "textures/rusticdelight_items/cooking_oil"
+    },
+    "rusticdelight:cotton_boll": {
+      "textures": "textures/rusticdelight_items/cotton_boll"
+    },
+    "rusticdelight:cotton_seeds": {
+      "textures": "textures/rusticdelight_items/cotton_seeds"
+    },
+    "rusticdelight:fried_calamari": {
+      "textures": "textures/rusticdelight_items/fried_calamari"
+    },
+    "rusticdelight:fried_chicken": {
+      "textures": "textures/rusticdelight_items/fried_chicken"
+    },
+    "rusticdelight:fried_mushrooms": {
+      "textures": "textures/rusticdelight_items/fried_mushrooms"
+    },
+    "rusticdelight:fruit_beignet": {
+      "textures": "textures/rusticdelight_items/fruit_beignet"
+    },
+    "rusticdelight:honey_pancakes": {
+      "textures": "textures/rusticdelight_items/honey_pancakes"
+    },
+    "rusticdelight:potato_salad": {
+      "textures": "textures/rusticdelight_items/potato_salad"
+    },
+    "rusticdelight:potato_slices": {
+      "textures": "textures/rusticdelight_items/potato_slices"
+    },
+    "rusticdelight:roasted_bell_pepper_green": {
+      "textures": "textures/rusticdelight_items/roasted_bell_pepper_green"
+    },
+    "rusticdelight:roasted_bell_pepper_red": {
+      "textures": "textures/rusticdelight_items/roasted_bell_pepper_red"
+    },
+    "rusticdelight:roasted_bell_pepper_yellow": {
+      "textures": "textures/rusticdelight_items/roasted_bell_pepper_yellow"
+    },
+    "rusticdelight:spring_rolls": {
+      "textures": "textures/rusticdelight_items/spring_rolls"
+    },
+    "rusticdelight:stuffed_bell_pepper_green": {
+      "textures": "textures/rusticdelight_items/stuffed_bell_pepper_green"
+    },
+    "rusticdelight:stuffed_bell_pepper_red": {
+      "textures": "textures/rusticdelight_items/stuffed_bell_pepper_red"
+    },
+    "rusticdelight:stuffed_bell_pepper_yellow": {
+      "textures": "textures/rusticdelight_items/stuffed_bell_pepper_yellow"
+    },
+    "rusticdelight:vegetable_pancakes": {
+      "textures": "textures/rusticdelight_items/vegetable_pancakes"
+    },
+    "rusticdelight:wild_bell_peppers": {
+      "textures": "textures/blocks/wild_bell_peppers"
+    },
+    "rusticdelight:wild_cotton": {
+      "textures": "textures/blocks/wild_cotton"
+    }
+  },
+  "texture_name": "atlas.items"
+}

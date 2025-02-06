@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:vegetable_pancakes"
+        },
+        "key": {
+            "B": {
+                "item": "rusticdelight:batter"
+            },
+            "L": {
+                "tag": "farmersdelight:cabbage_roll_ingredients"
+            },
+            "V": {
+                "tag": "farmersdelight:vegetable"
+            },
+            "Y": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "pattern": [
+            "LVL",
+            "VBV",
+            "LYL"
+        ],
+        "result": {
+            "item": "rusticdelight:vegetable_pancakes"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:red_dye"
+        },
+        "ingredients": [
+            {
+                "item": "rusticdelight:bell_pepper_red"
+            }
+        ],
+        "result": {
+            "item": "minecraft:red_dye"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

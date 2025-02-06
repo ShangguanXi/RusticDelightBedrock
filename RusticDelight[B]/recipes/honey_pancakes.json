@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:honey_pancakes"
+        },
+        "key": {
+            "B": {
+                "item": "rusticdelight:batter"
+            },
+            "H": {
+                "item": "minecraft:honey_bottle"
+            },
+            "S": {
+                "item": "minecraft:sweet_berries"
+            },
+            "X": {
+                "item": "minecraft:sugar"
+            },
+            "Y": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "pattern": [
+            "XHX",
+            "SBS",
+            "XYX"
+        ],
+        "result": {
+            "item": "rusticdelight:honey_pancakes"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

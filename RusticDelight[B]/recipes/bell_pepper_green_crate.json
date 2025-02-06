@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:bell_pepper_green_crate"
+        },
+        "key": {
+            "#": {
+                "item": "rusticdelight:bell_pepper_green"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "rusticdelight:bell_pepper_green_crate"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation_modifier": 0.7,
+        "can_always_eat": false
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:is_fertilizer.40"
+        ]
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rusticdelight:stuffed_bell_pepper_green"
+        }
+      }
+    },
+    "description": {
+      "identifier": "rusticdelight:stuffed_bell_pepper_green",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

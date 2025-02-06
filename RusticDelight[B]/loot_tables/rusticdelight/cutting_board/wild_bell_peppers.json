@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "name": "rusticdelight:bell_pepper_seeds",
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "name": "rusticdelight:bell_pepper_red",
+          "type": "item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "name": "minecraft:air",
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "weight": 1,
+          "name": "minecraft:red_dye",
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "weight": 9,
+          "name": "minecraft:air",
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

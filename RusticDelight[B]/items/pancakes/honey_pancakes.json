@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "rusticdelight:honey_pancakes"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rusticdelight:honey_pancakes"
+        }
+      }
+    },
+    "description": {
+      "identifier": "rusticdelight:honey_pancakes",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

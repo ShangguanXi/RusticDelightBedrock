@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "rusticdelight:campfire_baked_potato_slices"
+        },
+        "input": "rusticdelight:potato_slices",
+        "output": "rusticdelight:baked_potato_slices",
+        "tags": [
+            "campfire",
+            "soul_campfire"
+        ]
+    }
+}

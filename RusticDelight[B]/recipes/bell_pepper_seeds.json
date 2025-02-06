@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:bell_pepper_seeds"
+        },
+        "ingredients": [
+            {
+                "item": "rusticdelight:bell_pepper_seeds_bag"
+            }
+        ],
+        "result": {
+            "count": 9,
+            "item": "rusticdelight:bell_pepper_seeds"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "rusticdelight:chocolate_pancakes",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "rusticdelight:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('rusticdelight:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.chocolate_pancakes_stage0"
+                }
+            },
+            {
+                "condition": "query.block_state('rusticdelight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.pancakes_stage1",
+                    "minecraft:loot": "loot_tables/rusticdelight/blocks/pancakes.json"
+                }
+            },
+            {
+                "condition": "query.block_state('rusticdelight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.pancakes_stage2",
+                    "minecraft:loot": "loot_tables/rusticdelight/blocks/pancakes.json"
+                }
+            },
+            {
+                "condition": "query.block_state('rusticdelight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.pancakes_stage3",
+                    "minecraft:loot": "loot_tables/rusticdelight/blocks/pancakes.json"
+                }
+            },
+            {
+                "condition": "query.block_state('rusticdelight:food_block_stage') == 4",
+                "components": {
+                    "minecraft:geometry": "geometry.pancakes_stage4",
+                    "minecraft:loot": "loot_tables/rusticdelight/blocks/pancakes.json"
+                }
+            },
+            {
+                "condition": "query.block_state('rusticdelight:food_block_stage') == 5",
+                "components": {
+                    "minecraft:geometry": "geometry.pancakes_stage5",
+                    "minecraft:loot": "loot_tables/rusticdelight/blocks/pancakes.json"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [
+                "rusticdelight:pancakes"
+            ],
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.5
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "chocolate_pancakes_pancake"
+                },
+                "top": {
+                    "texture": "chocolate_pancakes_tray_top"
+                },
+                "topping": {
+                    "texture": "chocolate_pancakes_topping"
+                },
+                "side": {
+                    "texture": "tray_bottom"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    4.0,
+                    12.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    4.0,
+                    12.0
+                ]
+            },
+            "tag:rusticdelight:pancakes-speed.0.60": {}
+        }
+    }
+}

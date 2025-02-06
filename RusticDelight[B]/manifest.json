@@ -1,0 +1,56 @@
+{
+    "dependencies": [
+        {
+            "uuid": "824c1929-8e53-4988-b824-c46bd73ef56e",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.16.0"
+        }
+    ],
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            21,
+            40
+        ],
+        "name": "pack.name",
+        "uuid": "e29f82f1-e81e-4c9a-b9b7-f3c3ba39a485",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "pack.description",
+            "type": "data",
+            "uuid": "e29f82f1-e81e-4c9a-b9b7-f3c3ba39a482",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "description": "script",
+            "entry": "scripts/main.js",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "c5290469-77f9-1f71-be52-f38c9e18abb2",
+            "version": [
+                3,
+                0,
+                0
+            ]
+        }
+    ]
+}

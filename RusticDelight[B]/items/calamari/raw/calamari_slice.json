@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 0.1,
+        "can_always_eat": false
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:tags": {
+        "tags": [
+          "rusticdelight:calamari_roll_ingredients",
+          "rusticdelight:raw_calamari",
+          "farmersdelight:raw_calamari",
+          "farmersdelight:seafood",
+          "farmersdelight:is_fertilizer.30",
+          "farmersdelight:can_cook"
+        ]
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rusticdelight:calamari_slice"
+        }
+      }
+    },
+    "description": {
+      "identifier": "rusticdelight:calamari_slice",
+      "menu_category": {
+        "category": "nature",
+        "group": "farmersdelight:itemGroup.name.rawFood"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:bell_pepper_soup"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "tag": "farmersdelight:bell_pepper"
+            },
+            {
+                "tag": "farmersdelight:bell_pepper"
+            },
+            {
+                "tag": "farmersdelight:bell_pepper"
+            },
+            {
+                "tag": "farmersdelight:bell_pepper"
+            },
+            {
+                "tag": "farmersdelight:bell_pepper"
+            },
+            {
+                "tag": "farmersdelight:bell_pepper"
+            }
+        ],
+        "result": {
+            "item": "rusticdelight:bell_pepper_soup"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

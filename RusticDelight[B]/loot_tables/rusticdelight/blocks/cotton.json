@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:cotton_seeds",
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

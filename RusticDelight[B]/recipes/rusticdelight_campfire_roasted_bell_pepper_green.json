@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "rusticdelight:campfire_roasted_bell_pepper_green"
+        },
+        "input": "rusticdelight:bell_pepper_green",
+        "output": "rusticdelight:roasted_bell_pepper_green",
+        "tags": [
+            "campfire",
+            "soul_campfire"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:bell_pepper_yellow"
+        },
+        "ingredients": [
+            {
+                "item": "rusticdelight:bell_pepper_yellow_crate"
+            }
+        ],
+        "result": {
+            "count": 9,
+            "item": "rusticdelight:bell_pepper_yellow"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

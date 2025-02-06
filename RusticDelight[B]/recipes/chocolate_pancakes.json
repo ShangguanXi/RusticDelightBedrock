@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:chocolate_pancakes"
+        },
+        "key": {
+            "B": {
+                "item": "rusticdelight:batter"
+            },
+            "C": {
+                "item": "minecraft:cocoa_beans"
+            },
+            "M": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "X": {
+                "item": "minecraft:sugar"
+            },
+            "Y": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "pattern": [
+            "XMX",
+            "CBC",
+            "XYX"
+        ],
+        "result": {
+            "item": "rusticdelight:chocolate_pancakes"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:green_dye"
+        },
+        "ingredients": [
+            {
+                "item": "rusticdelight:bell_pepper_green"
+            }
+        ],
+        "result": {
+            "item": "minecraft:green_dye"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:cotton_boll_crate"
+        },
+        "key": {
+            "#": {
+                "item": "rusticdelight:cotton_boll"
+            }
+        },
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "result": {
+            "item": "rusticdelight:cotton_boll_crate"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
