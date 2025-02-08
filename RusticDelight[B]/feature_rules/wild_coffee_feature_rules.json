@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "rusticdelight:wild_coffee_feature_rules",
+            "places_feature": "rusticdelight:scatter_wild_coffee_feature"
+        },
+        "conditions": {
+            "placement_pass": "surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "all_of": [
+                        {
+                            "any_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "overworld"
+                                },
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "overworld_generation"
+                                }
+                            ]
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "value": "jungle"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 1,
+            "scatter_chance": 5.0,
+            "coordinate_eval_order": "xzy",
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    }
+}
