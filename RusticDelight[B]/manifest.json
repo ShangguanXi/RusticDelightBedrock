@@ -3,7 +3,7 @@
         {
             "uuid": "824c1929-8e53-4988-b824-c46bd73ef56e",
             "version": [
-                1,
+                3,
                 0,
                 0
             ]
@@ -19,12 +19,12 @@
         "min_engine_version": [
             1,
             21,
-            40
+            60
         ],
         "name": "pack.name",
         "uuid": "e29f82f1-e81e-4c9a-b9b7-f3c3ba39a485",
         "version": [
-            1,
+            3,
             0,
             0
         ]
@@ -35,7 +35,7 @@
             "type": "data",
             "uuid": "e29f82f1-e81e-4c9a-b9b7-f3c3ba39a482",
             "version": [
-                1,
+                3,
                 0,
                 0
             ]
