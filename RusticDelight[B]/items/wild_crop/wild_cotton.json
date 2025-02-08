@@ -3,7 +3,8 @@
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
-        "block": "rusticdelight:wild_cotton"
+        "block": "rusticdelight:wild_cotton",
+        "replace_block_item":true
       },
       "minecraft:icon": {
         "textures": {

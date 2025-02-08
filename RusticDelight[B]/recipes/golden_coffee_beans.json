@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:golden_coffee_beans_coffee_beans"
+        },
+        "key": {
+            "C": {
+                "item": "rusticdelight:coffee_beans"
+            },
+            "G": {
+                "item": "minecraft:gold_nugget"
+            }
+        },
+        "pattern": [
+            "GGG",
+            "GCG",
+            "GGG"
+        ],
+        "result": {
+            "item": "rusticdelight:golden_coffee_beans"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

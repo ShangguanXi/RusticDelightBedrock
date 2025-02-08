@@ -116,6 +116,51 @@
     },
     "wild_cotton": {
       "textures": "textures/blocks/wild_cotton"
+    },
+    "coffee_beans_bag_top": {
+      "textures": "textures/blocks/coffee_beans_bag_top"
+    },
+    "wild_coffee": {
+      "textures": "textures/blocks/wild_coffee"
+    },
+    "roasted_coffee_beans_bag_top": {
+      "textures": "textures/blocks/roasted_coffee_beans_bag_top"
+    },
+    "coffee_stage0": {
+      "textures": "textures/blocks/coffee_stage0"
+    },
+    "coffee_stage1": {
+      "textures": "textures/blocks/coffee_stage1"
+    },
+    "coffee_stage2": {
+      "textures": "textures/blocks/coffee_stage2"
+    },
+    "coffee_stage3": {
+      "textures": "textures/blocks/coffee_stage3"
+    },
+    "coffee_stage4": {
+      "textures": "textures/blocks/coffee_stage4"
+    },
+    "coffee_stage5": {
+      "textures": "textures/blocks/coffee_stage5"
+    },
+    "cherry_blossom_cheesecake_bottom": {
+      "textures": "textures/blocks/cherry_blossom_cheesecake_bottom"
+    },
+    "cherry_blossom_cheesecake_side": {
+      "textures": "textures/blocks/cherry_blossom_cheesecake_side"
+    },
+    "cherry_blossom_cheesecake_top": {
+      "textures": "textures/blocks/cherry_blossom_cheesecake_top"
+    },
+    "cherry_blossom_pancakes_pancake": {
+      "textures": "textures/blocks/cherry_blossom_pancakes_pancake"
+    },
+    "cherry_blossom_pancakes_topping": {
+      "textures": "textures/blocks/cherry_blossom_pancakes_topping"
+    },
+    "cherry_blossom_pancakes_tray_top": {
+      "textures": "textures/blocks/cherry_blossom_pancakes_tray_top"
     }
   },
   "texture_name": "atlas.terrain"

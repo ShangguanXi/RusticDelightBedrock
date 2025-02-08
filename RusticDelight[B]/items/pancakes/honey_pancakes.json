@@ -3,7 +3,8 @@
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
-        "block": "rusticdelight:honey_pancakes"
+        "block": "rusticdelight:honey_pancakes",
+        "replace_block_item":true
       },
       "minecraft:icon": {
         "textures": {

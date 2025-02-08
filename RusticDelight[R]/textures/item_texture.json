@@ -102,6 +102,51 @@
     },
     "rusticdelight:wild_cotton": {
       "textures": "textures/blocks/wild_cotton"
+    },
+    "rusticdelight:wild_coffee": {
+      "textures": "textures/blocks/wild_coffee"
+    },
+    "rusticdelight:cherry_blossom_pancakes": {
+      "textures": "textures/rusticdelight_items/cherry_blossom_pancakes"
+    },
+    "rusticdelight:cherry_blossom_cheesecake_slice": {
+      "textures": "textures/rusticdelight_items/cherry_blossom_cheesecake_slice"
+    },
+    "rusticdelight:cherry_blossom_cheesecake": {
+      "textures": "textures/rusticdelight_items/cherry_blossom_cheesecake"
+    },
+    "rusticdelight:cherry_blossom_cookie": {
+      "textures": "textures/rusticdelight_items/cherry_blossom_cookie"
+    },
+    "rusticdelight:cherry_blossom_roll": {
+      "textures": "textures/rusticdelight_items/cherry_blossom_roll"
+    },
+    "rusticdelight:chocolate_coffee": {
+      "textures": "textures/rusticdelight_items/chocolate_coffee"
+    },
+    "rusticdelight:coffee_beans": {
+      "textures": "textures/rusticdelight_items/coffee_beans"
+    },
+    "rusticdelight:coffee_braised_beef": {
+      "textures": "textures/rusticdelight_items/coffee_braised_beef"
+    },
+    "rusticdelight:coffee": {
+      "textures": "textures/rusticdelight_items/coffee"
+    },
+    "rusticdelight:dark_coffee": {
+      "textures": "textures/rusticdelight_items/dark_coffee"
+    },
+    "rusticdelight:golden_coffee_beans": {
+      "textures": "textures/rusticdelight_items/golden_coffee_beans"
+    },
+    "rusticdelight:honey_coffee": {
+      "textures": "textures/rusticdelight_items/honey_coffee"
+    },
+    "rusticdelight:milk_coffee": {
+      "textures": "textures/rusticdelight_items/milk_coffee"
+    },
+    "rusticdelight:roasted_coffee_beans": {
+      "textures": "textures/rusticdelight_items/roasted_coffee_beans"
     }
   },
   "texture_name": "atlas.items"

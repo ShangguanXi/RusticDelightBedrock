@@ -31,6 +31,26 @@
     ],
     "disable_anim_fast_forward": true
   },
+  "coffee": {
+    "type": "image",
+    "texture": "textures/ui/coffee",
+    "uv": "@2_fps",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "coffee_beans": {
+    "type": "image",
+    "texture": "textures/ui/coffee_beans",
+    "uv": "@2_fps",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
   "berries": {
     "type": "image",
     "texture": "textures/ui/berries",
@@ -1010,6 +1030,403 @@
       }
     ]
   },
+  "rusticdelight_recipe_part_6": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "coffee@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/potion_bottle_drinkable"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/rusticdelight_items/coffee"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "stuffed_bell_pepper_red@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/potion_bottle_drinkable"
+                    }
+                  },
+                  {
+                    "cell4@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell5@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/rusticdelight_items/dark_coffee"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "rusticdelight_recipe_part_7": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "coffee@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2@cooking_pot.coffee_beans": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/milk_bottle"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/rusticdelight_items/milk_coffee"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "coffee_braised_beef@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.coffee": {
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/beef_raw"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/carrot"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/potato"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/rusticdelight_items/coffee_braised_beef"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
   "rusticdelight_recipe_grid_5": {
     "type": "grid",
     "size": [
@@ -1021,6 +1438,30 @@
       1
     ],
     "grid_item_template": "cooking_pot.rusticdelight_recipe_part_5"
+  },
+  "rusticdelight_recipe_grid_6": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "cooking_pot.rusticdelight_recipe_part_6"
+  },
+  "rusticdelight_recipe_grid_7": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "cooking_pot.rusticdelight_recipe_part_7"
   },
   "recipe_grid_panel": {
     "modifications": [
@@ -1045,6 +1486,12 @@
           },
           {
             "rusticdelight_recipe_grid_5@cooking_pot.rusticdelight_recipe_grid_5": {}
+          },
+          {
+            "rusticdelight_recipe_grid_6@cooking_pot.rusticdelight_recipe_grid_6": {}
+          },
+          {
+            "rusticdelight_recipe_grid_7@cooking_pot.rusticdelight_recipe_grid_7": {}
           }
         ]
       }

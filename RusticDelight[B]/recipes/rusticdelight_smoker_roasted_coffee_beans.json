@@ -1,0 +1,13 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "rusticdelight:smoker_roasted_coffee_beans"
+        },
+        "input": "rusticdelight:coffee_beans",
+        "output": "rusticdelight:roasted_coffee_beans",
+        "tags": [
+            "smoker"
+        ]
+    }
+}

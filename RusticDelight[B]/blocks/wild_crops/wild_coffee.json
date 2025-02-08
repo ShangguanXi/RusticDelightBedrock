@@ -1,0 +1,56 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "rusticdelight:wild_coffee"
+        },
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.0
+            },
+			"minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.1
+            },
+            "minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wild_coffee",
+                    "render_method": "alpha_test_single_sided"
+				}
+			},
+			"minecraft:flammable": {
+				"catch_chance_modifier": 30,
+				"destroy_chance_modifier": 60
+			},
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "dirt",
+                            "sand",
+                            "grass"
+                        ],
+                        "allowed_faces": [
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5,
+                    0,
+                    -5
+                ],
+                "size": [
+                    10,
+                    16,
+                    10
+                ]
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:collision_box": false
+        }
+    }
+}

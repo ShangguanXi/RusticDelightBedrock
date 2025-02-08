@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:coffee_beans",
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

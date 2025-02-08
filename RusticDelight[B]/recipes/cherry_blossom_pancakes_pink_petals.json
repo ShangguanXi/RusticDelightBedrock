@@ -1,0 +1,41 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:cherry_blossom_pancakes_pink_petals"
+        },
+        "key": {
+            "B": {
+                "item": "rusticdelight:batter"
+            },
+            "M": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "P": {
+                "item": "minecraft:pink_petals"
+            },
+            "X": {
+                "item": "minecraft:sugar"
+            },
+            "Y": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "pattern": [
+            "XMX",
+            "PBP",
+            "XYX"
+        ],
+        "result": [
+            {
+                "item": "rusticdelight:cherry_blossom_pancakes"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

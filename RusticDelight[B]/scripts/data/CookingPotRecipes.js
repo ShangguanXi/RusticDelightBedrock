@@ -197,6 +197,72 @@ const cookingPotRecipes = [
         "recipe_book_tab": 'meals',
         "result": { "item": 'rusticdelight:stuffed_bell_pepper_yellow' }
     },
+    {
+        "identifer": "rusticdelight:coffee",
+        "tags": ["cooking_pot"],
+        "type": 'farmersdelight:cooking',
+        "time": 200,
+        "priority": 0,
+        "experience": 1.0,
+        "ingredients": [
+            { "item": 'minecraft:potion' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' }
+        ],
+        "recipe_book_tab": 'meals',
+        "result": { "item": 'rusticdelight:coffee' }
+    },
+    {
+        "identifer": "rusticdelight:dark_coffee",
+        "tags": ["cooking_pot"],
+        "type": 'farmersdelight:cooking',
+        "time": 200,
+        "priority": 0,
+        "experience": 1.0,
+        "ingredients": [
+            { "item": 'minecraft:potion' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' }
+        ],
+        "recipe_book_tab": 'meals',
+        "result": { "item": 'rusticdelight:dark_coffee' }
+    },
+    {
+        "identifer": "rusticdelight:milk_coffee",
+        "tags": ["cooking_pot"],
+        "type": 'farmersdelight:cooking',
+        "time": 200,
+        "priority": 0,
+        "experience": 1.0,
+        "ingredients": [
+            { "item": 'farmersdelight:milk_bottle' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' },
+            { "tag": 'farmersdelight:coffee_beans' }
+        ],
+        "recipe_book_tab": 'meals',
+        "result": { "item": 'rusticdelight:milk_coffee' }
+    },
+    {
+        "identifer": "rusticdelight:coffee_braised_beef",
+        "tags": ["cooking_pot"],
+        "type": 'farmersdelight:cooking',
+        "time": 200,
+        "priority": 0,
+        "experience": 1.0,
+        "ingredients": [
+            { "item": 'minecraft:beff' },
+            { "tag": 'rusticdelight:coffee_food_ingredients' },
+            { "item": 'minecraft:carrot' },
+            { "item": 'minecraft:potato' }
+        ],
+        "recipe_book_tab": 'meals',
+        "result": { "item": 'rusticdelight:coffee_braised_beef' }
+    }
 ];
 export { cookingPotRecipes };
 //# sourceMappingURL=CookingPotRecipes.js.map

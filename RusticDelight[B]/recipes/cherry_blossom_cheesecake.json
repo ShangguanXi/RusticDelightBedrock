@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:cherry_blossom_cheesecake"
+        },
+        "key": {
+            "#": {
+                "item": "rusticdelight:cherry_blossom_cheesecake_slice"
+            }
+        },
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "result": {
+            "item": "rusticdelight:cherry_blossom_cheesecake"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

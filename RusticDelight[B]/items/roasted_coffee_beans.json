@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+      "components": {
+       "minecraft:food": {
+          "can_always_eat": false,
+          "nutrition": 2,
+          "saturation_modifier": 0.2
+        },
+        "minecraft:use_animation": "eat",
+        "minecraft:use_modifiers": {
+          "use_duration": 1.6,
+          "movement_modifier": 0.4
+        },
+        "minecraft:icon": {
+          "textures": {
+            "default": "rusticdelight:roasted_coffee_beans"
+          }
+        },
+        "minecraft:tags": {
+          "tags": [
+            "farmersdelight:coffee_beans",
+            "rusticdelight:coffee_beans"
+          ]
+        }
+      },
+      "description": {
+        "identifier": "rusticdelight:roasted_coffee_beans",
+        "menu_category": {
+          "category": "equipment",
+          "group": "farmersdelight:itemGroup.name.miscFood"
+        }
+      }
+    }
+  }

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:cherry_blossom_cookie_pink_petals"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "minecraft:pink_petals"
+            }
+        ],
+        "result": {
+            "count": 8,
+            "item": "rusticdelight:cherry_blossom_cookie"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -3,7 +3,8 @@
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
-        "block": "rusticdelight:wild_bell_peppers"
+        "block": "rusticdelight:wild_bell_peppers",
+        "replace_block_item":true
       },
       "minecraft:icon": {
         "textures": {

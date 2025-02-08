@@ -83,10 +83,64 @@ class CottonComponent extends CropsComponent {
         return "rusticdelight/blocks/cotton_riped";
     }
 }
+class CoffeComponent {
+    constructor() {
+        this.onPlayerInteract = this.onPlayerInteract.bind(this);
+        this.onRandomTick = this.onRandomTick.bind(this);
+    }
+    onPlayerInteract(args) {
+        const block = args.block;
+        const player = args.player;
+        const dimension = args.dimension;
+        const age = Number(block.permutation.getState("farmersdelight:growth"));
+        const random = Math.floor(Math.random() * 101);
+        if (!player)
+            return;
+        const inventoryComponent = player.getComponent(EntityInventoryComponent.componentId);
+        const container = inventoryComponent?.container;
+        try {
+            const itemId = container?.getSlot(player.selectedSlotIndex).typeId;
+            if (itemId == "minecraft:bone_meal" && age < 5) {
+                world.playSound("item.bone_meal.use", block.location);
+                if (player?.getGameMode() == "creative") {
+                    block.dimension.spawnParticle("minecraft:crop_growth_emitter", { x: block.location.x + 0.5, y: block.location.y + 0.5, z: block.location.z + 0.5 });
+                    block.setPermutation(block.permutation.withState("farmersdelight:growth", 5));
+                }
+                else {
+                    if (random <= 60) {
+                        block.setPermutation(block.permutation.withState("farmersdelight:growth", age + 1));
+                    }
+                    block.dimension.spawnParticle("minecraft:crop_growth_emitter", { x: block.location.x + 0.5, y: block.location.y + 0.5, z: block.location.z + 0.5 });
+                    if (!container)
+                        return;
+                    ItemAPI.clear(player, player?.selectedSlotIndex);
+                }
+            }
+            if (age == 5) {
+                block.setPermutation(block.permutation.withState("farmersdelight:growth", 0));
+                spawnLoot("rusticdelight/blocks/coffee_riped", dimension, { x: block.location.x, y: block.location.y, z: block.location.z });
+            }
+        }
+        catch (error) {
+            if (age == 5) {
+                block.setPermutation(block.permutation.withState("farmersdelight:growth", 0));
+                spawnLoot("rusticdelight/blocks/coffee_riped", dimension, { x: block.location.x, y: block.location.y, z: block.location.z });
+            }
+        }
+    }
+    onRandomTick(args) {
+        const block = args.block;
+        const age = Number(block.permutation.getState("farmersdelight:growth"));
+        if (age < 5) {
+            block.setPermutation(block.permutation.withState("farmersdelight:growth", age + 1));
+        }
+    }
+}
 export class CropsComponentRegister {
     register(args) {
         args.blockComponentRegistry.registerCustomComponent('rusticdelight:cotton', new CottonComponent());
         args.blockComponentRegistry.registerCustomComponent('rusticdelight:bell_peppers', new BellPeppersComponent());
+        args.blockComponentRegistry.registerCustomComponent('rusticdelight:coffee', new CoffeComponent());
     }
 }
 __decorate([

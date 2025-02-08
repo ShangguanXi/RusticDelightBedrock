@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "rusticdelight:cherry_blossom_pancakes",
+        "replace_block_item":true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rusticdelight:cherry_blossom_pancakes"
+        }
+      }
+    },
+    "description": {
+      "identifier": "rusticdelight:cherry_blossom_pancakes",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

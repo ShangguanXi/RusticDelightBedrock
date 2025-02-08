@@ -35,6 +35,9 @@ export class WildCrop {
         if (blockId == "rusticdelight:wild_cotton") {
             WildCrop.handleCropBreak(args, "rusticdelight:wild_cotton", "rusticdelight:cotton_seeds", "rusticdelight:cotton_boll");
         }
+        if (blockId == "rusticdelight:wild_coffee") {
+            WildCrop.handleCropBreak(args, "rusticdelight:wild_coffee", "rusticdelight:coffee_beans", "rusticdelight:coffee_beans");
+        }
     }
 }
 __decorate([

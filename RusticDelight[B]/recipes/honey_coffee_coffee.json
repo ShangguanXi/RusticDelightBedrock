@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:honey_coffee_coffee"
+        },
+        "key": {
+            "M": {
+                "item": "rusticdelight:coffee"
+            },
+            "X": {
+                "item": "minecraft:honey_bottle"
+            },
+            "L": {
+                "item": "minecraft:sugar"
+            },
+            "B": {
+                "item": "farmersdelight:milk_bottle"
+            }
+        },
+        "pattern": [
+            "XM",
+            "LB"
+        ],
+        "result": [
+            {
+                "item": "rusticdelight:honey_coffee"
+            },
+            {
+                "item": "minecraft:glass_bottle",
+                "count":2
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "rusticdelight:chocolate_coffee"
+        },
+        "ingredients": [
+            {
+                "item": "rusticdelight:milk_coffee"
+            },
+            {
+                "item": "minecraft:cocoa_beans"
+            },
+            {
+                "item": "minecraft:cocoa_beans"
+            }
+        ],
+        "result": {
+            "item": "rusticdelight:chocolate_coffee"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

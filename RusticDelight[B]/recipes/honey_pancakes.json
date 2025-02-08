@@ -26,9 +26,14 @@
             "SBS",
             "XYX"
         ],
-        "result": {
-            "item": "rusticdelight:honey_pancakes"
-        },
+        "result": [
+            {
+                "item": "rusticdelight:honey_pancakes"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
         "tags": [
             "crafting_table"
         ]

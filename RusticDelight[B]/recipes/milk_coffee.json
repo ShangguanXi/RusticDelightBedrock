@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rusticdelight:milk_coffee"
+        },
+        "key": {
+            "M": {
+                "item": "farmersdelight:milk_bottle"
+            },
+            "X": {
+                "item": "rusticdelight:coffee"
+            }
+        },
+        "pattern": [
+            "XM"
+        ],
+        "result": {
+            "item": "rusticdelight:milk_coffee"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

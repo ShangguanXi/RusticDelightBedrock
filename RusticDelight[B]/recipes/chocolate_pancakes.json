@@ -26,9 +26,14 @@
             "CBC",
             "XYX"
         ],
-        "result": {
-            "item": "rusticdelight:chocolate_pancakes"
-        },
+        "result": [
+            {
+                "item": "rusticdelight:chocolate_pancakes"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
         "tags": [
             "crafting_table"
         ]

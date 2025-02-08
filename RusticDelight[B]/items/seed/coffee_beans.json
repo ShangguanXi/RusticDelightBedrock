@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "rusticdelight:coffee_beans",
+        "use_on": [
+          "farmland",
+          "farmersdelight:rich_soil_farmland"
+        ],
+        "replace_block_item":true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "rusticdelight:coffee_beans"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:seed-rusticdelight:coffee_beans",
+          "farmersdelight:can_cook",
+          "farmersdelight:coffee_beans",
+          "rusticdelight:coffee_beans"
+        ]
+      }
+    },
+    "description": {
+      "identifier": "rusticdelight:coffee_beans",
+      "menu_category": {
+        "category": "nature",
+        "group": "farmersdelight:itemGroup.name.seed"
+      }
+    }
+  }
+}

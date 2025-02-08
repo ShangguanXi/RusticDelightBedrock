@@ -23,9 +23,11 @@
             "VBV",
             "LYL"
         ],
-        "result": {
-            "item": "rusticdelight:vegetable_pancakes"
-        },
+        "result": [
+            {
+                "item": "rusticdelight:vegetable_pancakes"
+            }
+        ],
         "tags": [
             "crafting_table"
         ]

@@ -16,7 +16,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "wild_bell_peppers",
-                    "render_method": "alpha_test"
+                    "render_method": "alpha_test_single_sided"
 				}
 			},
 			"minecraft:flammable": {
