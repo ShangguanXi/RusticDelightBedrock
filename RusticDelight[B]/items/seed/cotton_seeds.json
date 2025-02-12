@@ -16,7 +16,8 @@
       },
       "minecraft:tags": {
         "tags": [
-          "farmersdelight:seed-rusticdelight:cotton"
+          "farmersdelight:seed-rusticdelight:cotton",
+          "rusticdelight:cooking_oil_ingredients"
         ]
       }
     },

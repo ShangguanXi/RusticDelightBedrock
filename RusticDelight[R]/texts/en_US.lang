@@ -46,6 +46,25 @@ item.rusticdelight:stuffed_bell_pepper_green=Stuffed Green Bell Pepper
 item.rusticdelight:stuffed_bell_pepper_red=Stuffed Red Bell Pepper
 item.rusticdelight:stuffed_bell_pepper_yellow=Stuffed Yellow Bell Pepper
 
+item.rusticdelight:wild_coffee=Wild Coffee
+item.rusticdelight:cherry_blossom_pancakes=Cherry Blossom Pancakes
+item.rusticdelight:cherry_blossom_cheesecake_slice=Cherry Blossom Cheesecake Slice
+item.rusticdelight:cherry_blossom_cheesecake=Cherry Blossom Cheesecake
+item.rusticdelight:cherry_blossom_cookie=Cherry Blossom Cookie
+item.rusticdelight:cherry_blossom_roll=Cherry Blossom Roll
+item.rusticdelight:chocolate_coffee=Chocolate Coffee
+item.rusticdelight:coffee_beans=Coffee Beans
+item.rusticdelight:coffee_braised_beef=Coffee Braised Beef
+item.rusticdelight:coffee=Coffee
+item.rusticdelight:dark_coffee=Dark Coffee
+item.rusticdelight:milk_coffee=Milk Coffee
+item.rusticdelight:golden_coffee_beans=Golden Coffee Beans
+item.rusticdelight:honey_coffee=Honey Coffee
+item.rusticdelight:roasted_coffee_beans=Roasted Coffee Beans
+
+tile.rusticdelight:coffee_beans_bag.name=Coffee Beans Bag
+tile.rusticdelight:roasted_coffee_beans_bag.name=Roasted Coffee Beans Bag
+
 pack.name=Rustic Delight
 pack.description=The mod is ported based on the original Java Edition mod 'Rustic Delight' under the MIT license
 
