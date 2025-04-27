@@ -7,13 +7,16 @@ const cookingPotRecipes = [
         "priority":0,
         "experience": 0.35,
         "ingredients": [
-            { "tag": 'farmersdelight:is_milk' },
-            { "tag": 'farmersdelight:egg' },
+            { "item": 'farmersdelight:milk_bottle' },
+            { "tag": 'minecraft:egg' },
             { "item": 'minecraft:wheat' },
             { "item": 'minecraft:wheat' }
         ],
         "recipe_book_tab": 'misc',
-        "result": { "count": 2, "item": 'rusticdelight:batter' }
+        "result": {
+             "count": 2,
+              "item": 'rusticdelight:batter' 
+            }
     },
     {
         "identifer": "rusticdelight:bell_pepper_pasta",
