@@ -1,7 +1,8 @@
-import { BlockCustomComponent, BlockComponentPlayerInteractEvent, WorldInitializeBeforeEvent, world, Dimension, Vector3, BlockVolumeBase, BlockVolume } from "@minecraft/server";
+import { BlockCustomComponent, BlockComponentPlayerInteractEvent, StartupEvent, system, ItemComponentTypes, ItemEnchantableComponent, PlayerBreakBlockBeforeEvent, world } from "@minecraft/server";
 import { EventAPI } from "../../lib/EventAPI";
+import { ItemAPI } from "../../lib/ItemAPI";
 
-class PancakesComponent implements BlockCustomComponent {
+export class PancakesComponent implements BlockCustomComponent {
     constructor() {
         this.onPlayerInteract = this.onPlayerInteract.bind(this);
     }
@@ -31,12 +32,27 @@ class PancakesComponent implements BlockCustomComponent {
         }
         else  block.setPermutation(block.permutation.withState("rusticdelight:food_block_stage",stage+1))
     }
+    @EventAPI.register(world.beforeEvents.playerBreakBlock)
+    playerBreak(args: PlayerBreakBlockBeforeEvent) {
+        const block = args.block
+        const itemStack = args.itemStack
+        if (!itemStack) return
+        if (!(block.typeId.includes('pancakes')&&block.typeId.includes('rusticdelight'))) return
+        const enchant = itemStack.getComponent(ItemComponentTypes.Enchantable) as ItemEnchantableComponent;
+        const silkTouch = enchant?.getEnchantment('silk_touch');
+        if (silkTouch) {
+            args.cancel = true
+            system.runTimeout(() => {
+                ItemAPI.damage(args.player, args.player.selectedSlotIndex)
+                block.dimension.runCommand(`fill ${block.location.x} ${block.location.y} ${block.location.z} ${block.location.x} ${block.location.y} ${block.location.z} air destroy`)
+            })
+        }
 
-}
-export class PancakesComponentRegister {
-    @EventAPI.register(world.beforeEvents.worldInitialize)
-    register(args: WorldInitializeBeforeEvent) {
+    }
+    @EventAPI.register(system.beforeEvents.startup)
+    register(args: StartupEvent) {
         args.blockComponentRegistry.registerCustomComponent('rusticdelight:pancakes', new PancakesComponent());
     }
+
 
 }

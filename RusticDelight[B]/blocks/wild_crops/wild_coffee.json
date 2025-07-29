@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.60",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "rusticdelight:wild_coffee"
@@ -16,7 +16,9 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "wild_coffee",
-                    "render_method": "alpha_test_single_sided"
+                    "render_method": "alpha_test_single_sided",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
 				}
 			},
 			"minecraft:flammable": {
@@ -27,9 +29,10 @@
                 "conditions": [
                     {
                         "block_filter": [
-                            "dirt",
                             "sand",
-                            "grass"
+                            {
+                                "tags": "q.any_tag('dirt')"
+                            }
                         ],
                         "allowed_faces": [
                             "up"
@@ -49,7 +52,8 @@
                     10
                 ]
             },
-            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:loot": "loot_tables/rusticdelight/wild_coffee.json",
+            "farmersdelight:wild_crop":{},
             "minecraft:collision_box": false
         }
     }

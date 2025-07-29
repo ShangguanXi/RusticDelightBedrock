@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:cotton_seeds",
+                    "type": "item"
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "name": "rusticdelight:cotton",
+                    "weight": 1,
+                    "type": "item"
+                },
+                {
+                    "type": "empty",
+                    "weight": 2
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

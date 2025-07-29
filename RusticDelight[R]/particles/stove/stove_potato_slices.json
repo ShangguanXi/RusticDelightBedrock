@@ -53,7 +53,7 @@
         "material": "particles_alpha",
         "texture": "textures/rusticdelight_items/potato_slices"
       },
-      "identifier": "farmersdelight:stove_potato_slices"
+      "identifier": "rusticdelight:stove_potato_slices"
     }
   }
 }

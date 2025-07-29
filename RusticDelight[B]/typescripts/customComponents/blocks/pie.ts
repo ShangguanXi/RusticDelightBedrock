@@ -1,7 +1,8 @@
-import { BlockCustomComponent, BlockComponentPlayerInteractEvent, WorldInitializeBeforeEvent, world, Dimension, Vector3, BlockVolumeBase, BlockVolume, EntityInventoryComponent, Container, ItemStack } from "@minecraft/server";
+import { BlockCustomComponent, BlockComponentPlayerInteractEvent, world, PlayerBreakBlockBeforeEvent, system, BlockVolumeBase, BlockVolume, EntityInventoryComponent, Container, ItemStack, StartupEvent, ItemEnchantableComponent, ItemComponentTypes } from "@minecraft/server";
 import { EventAPI } from "../../lib/EventAPI";
+import { ItemAPI } from "../../lib/ItemAPI";
 
-class PiesComponent implements BlockCustomComponent {
+export class PiesComponent implements BlockCustomComponent {
     constructor() {
         this.onPlayerInteract = this.onPlayerInteract.bind(this);
     }
@@ -23,12 +24,28 @@ class PiesComponent implements BlockCustomComponent {
         }
         else block.dimension.runCommand(`fill ${location.x} ${location.y} ${location.z} ${location.x} ${location.y} ${location.z} air [] destroy`)
     }
+    @EventAPI.register(world.beforeEvents.playerBreakBlock)
+    playerBreak(args: PlayerBreakBlockBeforeEvent) {
+        const block = args.block
+        const itemStack = args.itemStack
+        if (!itemStack) return
+        if (!(block.hasTag("rusticdelight:pie"))) return
+        const enchant = itemStack.getComponent(ItemComponentTypes.Enchantable)
+        const silkTouch = enchant?.getEnchantment('silk_touch');
 
-}
-export class PieComponentRegister {
-    @EventAPI.register(world.beforeEvents.worldInitialize)
-    register(args: WorldInitializeBeforeEvent) {
+        if (silkTouch) {
+            args.cancel = true
+            system.runTimeout(() => {
+                ItemAPI.damage(args.player, args.player.selectedSlotIndex)
+                block.dimension.runCommand(`fill ${block.location.x} ${block.location.y} ${block.location.z} ${block.location.x} ${block.location.y} ${block.location.z} air destroy`)
+            })
+        }
+
+    }
+    @EventAPI.register(system.beforeEvents.startup)
+    register(args: StartupEvent) {
         args.blockComponentRegistry.registerCustomComponent('rusticdelight:pie', new PiesComponent());
     }
+
 
 }

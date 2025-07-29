@@ -1,10 +1,21 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
         "block": "rusticdelight:wild_bell_peppers",
         "replace_block_item":true
+      },
+      "farmersdelight:cuttable": {
+        "loot": [
+          ["rusticdelight:bell_pepper_seeds", 1],
+          ["rusticdelight:bell_pepper_red", 1,0.5],
+          ["minecraft:white_dye", 1,0.1]
+        ],
+        "tool": {
+          "type": "tag",
+          "name": "farmersdelight:is_knife"
+        }
       },
       "minecraft:icon": {
         "textures": {

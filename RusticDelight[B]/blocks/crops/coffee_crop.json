@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.60",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "rusticdelight:coffee_beans",
@@ -10,9 +10,7 @@
                     2,
                     3,
                     4,
-                    5,
-                    6,
-                    7
+                    5
                 ]
             }
         },
@@ -158,6 +156,12 @@
             }
         ],
         "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "coffee_stage0",
+                    "render_method": "alpha_test"
+                }
+            },
             "minecraft:liquid_detection": {
                 "detection_rules": [
                     {
@@ -168,9 +172,13 @@
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.0
             },
-            "minecraft:custom_components": [
-                "rusticdelight:coffee"
-            ],
+            "farmersdelight:crop": {
+                "loot":"loot_tables/rusticdelight/blocks/coffee_riped.json",
+                "state": {
+                    "name": "farmersdelight:growth",
+                    "age": 5
+                }
+            },
             "minecraft:flammable": {
                 "catch_chance_modifier": 30,
                 "destroy_chance_modifier": 30

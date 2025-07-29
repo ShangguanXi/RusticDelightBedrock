@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:use_modifiers": {
@@ -14,7 +14,8 @@
       "minecraft:use_animation": "eat",
       "minecraft:tags": {
         "tags": [
-          "farmersdelight:is_fertilizer.30"
+          "farmersdelight:is_fertilizer.30",
+          "farmersdelight:cooked_potato_slices"
         ]
       },
       "minecraft:icon": {

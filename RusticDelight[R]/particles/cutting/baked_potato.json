@@ -6,7 +6,7 @@
         "active_time": 0.12
       },
       "minecraft:emitter_rate_steady": {
-        "max_particles": 60,
+        "max_particles": 250,
         "spawn_rate": 1250
       },
       "minecraft:emitter_shape_box": {
@@ -51,9 +51,9 @@
     "description": {
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/rusticdelight_items/baked_potato_slices"
+        "texture": "textures/items/potato_baked"
       },
-      "identifier": "farmersdelight:skillet_baked_potato_slices"
+      "identifier": "farmersdelight:minecraft_baked_potato"
     }
   }
 }

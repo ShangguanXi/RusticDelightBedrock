@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.60",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "rusticdelight:chocolate_pancakes",
@@ -117,9 +117,8 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "rusticdelight:pancakes"
-            ],
+            "minecraft:geometry": "geometry.chocolate_pancakes_stage0",
+            "rusticdelight:pancakes": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
             },

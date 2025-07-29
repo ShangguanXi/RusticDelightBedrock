@@ -53,7 +53,7 @@
         "material": "particles_alpha",
         "texture": "textures/rusticdelight_items/coffee_beans"
       },
-      "identifier": "farmersdelight:skillet_coffee_beans"
+      "identifier": "rusticdelight:skillet_coffee_beans"
     }
   }
 }

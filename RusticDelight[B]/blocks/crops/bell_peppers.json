@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.60",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "rusticdelight:bell_peppers",
@@ -204,6 +204,12 @@
             }
         ],
         "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "bell_peppers_stage0",
+                    "render_method": "alpha_test"
+                }
+            },
             "minecraft:loot": "loot_tables/rusticdelight/blocks/bell_peppers.json",
             "minecraft:liquid_detection": {
                 "detection_rules": [
@@ -215,9 +221,13 @@
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.0
             },
-            "minecraft:custom_components": [
-                "rusticdelight:bell_peppers"
-            ],
+            "farmersdelight:crop": {
+                "loot": "loot_tables/rusticdelight/blocks/bell_peppers_riped.json",
+                "state": {
+                    "name": "farmersdelight:growth",
+                    "age": 7
+                }
+            },
             "minecraft:flammable": {
                 "catch_chance_modifier": 30,
                 "destroy_chance_modifier": 30
@@ -227,7 +237,6 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 0.0
             },
-            
             "minecraft:collision_box": false,
             "minecraft:placement_filter": {
                 "conditions": [

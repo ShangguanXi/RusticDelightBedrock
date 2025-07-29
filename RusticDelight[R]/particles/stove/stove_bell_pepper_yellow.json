@@ -53,7 +53,7 @@
         "material": "particles_alpha",
         "texture": "textures/rusticdelight_items/bell_pepper_yellow"
       },
-      "identifier": "farmersdelight:stove_bell_pepper_yellow"
+      "identifier": "rusticdelight:stove_bell_pepper_yellow"
     }
   }
 }

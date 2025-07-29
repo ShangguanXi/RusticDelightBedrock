@@ -1,20 +1,14 @@
 
-import { Pancakes } from "./blocks/Pancakes";
-import { WildCrop } from "./blocks/WildCrop";
-import { CropsComponentRegister } from "./customComponents/blocks/Crops";
-import { PancakesComponentRegister } from "./customComponents/blocks/Pancakes";
-import { PieComponentRegister } from "./customComponents/blocks/pie";
+import { PancakesComponent } from "./customComponents/blocks/Pancakes";
+import { PiesComponent } from "./customComponents/blocks/pie";
 import { Foods } from "./items/Foods";
-import { CookingPotRecipeRegister } from "./register/CookingPotRecipeRegister";
+import { RecipeRegister } from "./register/RecipeRegister";
 
 
-new CookingPotRecipeRegister();
+new RecipeRegister();
 
-new PancakesComponentRegister();
-new CropsComponentRegister();
+new PancakesComponent();
 
-new WildCrop();
-new Pancakes();
-new PieComponentRegister();
+new PiesComponent();
 
 new Foods();

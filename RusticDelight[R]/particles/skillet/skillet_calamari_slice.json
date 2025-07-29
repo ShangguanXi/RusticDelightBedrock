@@ -53,7 +53,7 @@
         "material": "particles_alpha",
         "texture": "textures/rusticdelight_items/calamari_slice"
       },
-      "identifier": "farmersdelight:skillet_calamari_slice"
+      "identifier": "rusticdelight:skillet_calamari_slice"
     }
   }
 }

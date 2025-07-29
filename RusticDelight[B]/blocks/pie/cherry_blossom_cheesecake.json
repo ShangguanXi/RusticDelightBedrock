@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.60",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "rusticdelight:cherry_blossom_cheesecake",
@@ -98,14 +98,13 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "rusticdelight:pie"
-            ],
+            "minecraft:geometry": "geometry.pie",
+            "rusticdelight:pie": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5,
                 "item_specific_speeds": [
                     {
-                        "destroy_speed": 13,
+                        "destroy_speed": 0.5,
                         "item": {
                             "tags": "q.any_tag('farmersdelight:is_knife')"
                         }
@@ -158,7 +157,7 @@
                     12.0
                 ]
             },
-            "tag:rusticdelight:pie":{}
+            "tag:rusticdelight:pie": {}
         }
     }
 }

@@ -53,7 +53,7 @@
         "material": "particles_alpha",
         "texture": "textures/rusticdelight_items/cooked_calamari"
       },
-      "identifier": "farmersdelight:skillet_cooked_calamari"
+      "identifier": "rusticdelight:skillet_cooked_calamari"
     }
   }
 }

@@ -7,9 +7,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { WorldInitializeBeforeEvent, world } from "@minecraft/server";
+import { StartupEvent, system, ItemComponentTypes, PlayerBreakBlockBeforeEvent, world } from "@minecraft/server";
 import { EventAPI } from "../../lib/EventAPI";
-class PancakesComponent {
+import { ItemAPI } from "../../lib/ItemAPI";
+export class PancakesComponent {
     constructor() {
         this.onPlayerInteract = this.onPlayerInteract.bind(this);
     }
@@ -39,16 +40,37 @@ class PancakesComponent {
         else
             block.setPermutation(block.permutation.withState("rusticdelight:food_block_stage", stage + 1));
     }
-}
-export class PancakesComponentRegister {
+    playerBreak(args) {
+        const block = args.block;
+        const itemStack = args.itemStack;
+        if (!itemStack)
+            return;
+        if (!(block.typeId.includes('pancakes') && block.typeId.includes('rusticdelight')))
+            return;
+        const enchant = itemStack.getComponent(ItemComponentTypes.Enchantable);
+        const silkTouch = enchant?.getEnchantment('silk_touch');
+        if (silkTouch) {
+            args.cancel = true;
+            system.runTimeout(() => {
+                ItemAPI.damage(args.player, args.player.selectedSlotIndex);
+                block.dimension.runCommand(`fill ${block.location.x} ${block.location.y} ${block.location.z} ${block.location.x} ${block.location.y} ${block.location.z} air destroy`);
+            });
+        }
+    }
     register(args) {
         args.blockComponentRegistry.registerCustomComponent('rusticdelight:pancakes', new PancakesComponent());
     }
 }
 __decorate([
-    EventAPI.register(world.beforeEvents.worldInitialize),
+    EventAPI.register(world.beforeEvents.playerBreakBlock),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [WorldInitializeBeforeEvent]),
+    __metadata("design:paramtypes", [PlayerBreakBlockBeforeEvent]),
     __metadata("design:returntype", void 0)
-], PancakesComponentRegister.prototype, "register", null);
+], PancakesComponent.prototype, "playerBreak", null);
+__decorate([
+    EventAPI.register(system.beforeEvents.startup),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [StartupEvent]),
+    __metadata("design:returntype", void 0)
+], PancakesComponent.prototype, "register", null);
 //# sourceMappingURL=Pancakes.js.map

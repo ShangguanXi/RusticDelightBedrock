@@ -1,10 +1,21 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
         "block": "rusticdelight:wild_cotton",
         "replace_block_item":true
+      },
+      "farmersdelight:cuttable": {
+        "loot": [
+          ["rusticdelight:cotton_seeds", 1],
+          ["rusticdelight:cotton_boll", 1,0.5],
+          ["minecraft:white_dye", 1,0.5]
+        ],
+        "tool": {
+          "type": "tag",
+          "name": "farmersdelight:is_knife"
+        }
       },
       "minecraft:icon": {
         "textures": {
